@@ -1,0 +1,28 @@
+{
+    "name": "socketgame",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node --watch index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mukeshs1510/socketgame.git"
+    },
+    "author": "Mukesh Suthar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mukeshs1510/socketgame/issues"
+    },
+    "homepage": "https://github.com/mukeshs1510/socketgame#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "http": "^0.0.1-security",
+        "mongodb": "^6.8.0",
+        "socket.io": "^4.7.5"
+    }
+}
